@@ -14,6 +14,6 @@ My Goals are like:-
 # About Myself 
  Date- 2026/08/01 <br>
      Hey, This is Pratap Jung Karki from Nepal. <br>
-     I am 17 years old man, currently Studying in Grade 12  PCM+CS.
+     I am 17 years old man, currently Studying in Grade 12  PCM+CS. <br>
      🟢 Currently learning: HTML
     
