@@ -2,7 +2,7 @@
 
 #The HTML with SHITS is my first repo as also this is my first learning step towards web-development 
 #Here I will be sharing every tag uses and its feature in one of the files #html1.html.
-#will we sharing what is inside which file after the completation which will likely be comlplete in a year (hahahahhah) so stay tune shit.
+#will we sharing what is inside which file after the completation which will likely be comlplete in a year (hahahahhah) so stay tune.
 My Goals are like:-
 1. HTML 
 2. CSS 
