@@ -1,4 +1,4 @@
-# HTML-WITH-SHITS-
+#I-Am-Learning-HTLM
 
 #The HTML with SHITS is my first repo as also this is my first learning step towards web-development 
 #Here I will be sharing every tag uses and its feature in one of the files #html1.html.
