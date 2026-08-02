@@ -10,10 +10,46 @@
 <body>
     basically the ("<!-- -->") shows the comments which is usually used as a check point which is only for person who is writing in terminal or making code which is closed by using "-->"
     <!--the <h> indicates the heading font by Topic to Topic -->
-<h1>Hello man </h1>
+        
+<h1>Type of text </h1>
+
+<p> normal</p>
+<p><b>bold</b></p>
+<p><i>italic</i></p>
+<p><small>small</small></p>
+<p><sub>subscript</sub></p>
+<p><sup>superscript</sup></p>
+<p><ins>inserted</ins></p>
+<p><big>Hello man</big></p>
+<p><mark>marking</mark></p>
+<p><del>delete line </del></p>
+these are type of text
 <p>Do You Know I am immortal, haha </p>  <br>
 I Love Virtual World 
 <!-- <P> changes the paragraph and <br>  do same as it but have no closing tag for Br -->
+<h1>Type of List</h1>
+           <!-- Now lets talk about list -->
+        
+        <h5>Unordered List</h5>
+        <ul>
+            <li> this is </li>
+            <li>unordered list</li>
+        </ul>
+        <h5>ordered List</h5>
+        <ol type="I">
+            <li>This is </li>
+            <li>ordered list</li>
+        </ol>
+        <h5>Discription List</h5>
+        <dl>
+            <dt>Term Name for defination </dt><!--dt STAND FOR Description term-->
+            <dd> defination of term which add structure to text </dd><!--dd stand for description defination -->
+            <!-- You can add as much as you want-->
+        </dl>
+        <!-- in this list ol , ul , dl  are opening of particular list -->
+         <!-- we can add list one inside another which  is called sub list -->
+
+<h1> Adding clickable link</h1>
 <!-- the below process shows hyperlink  whisc is under <a></a> which is activated with the tag href="link" target=inside those a tag -->
     <a href="https://youtu.be/HD13eq_Pmp8" target="_blank" rel="noopener noreferrer" title="for showing msg when user point the link "> Bro Code </a> for HTML learning <br>
 <!-- Here rel refers to the relation of the new tab with the original tab 
@@ -24,16 +60,18 @@ I Love Virtual World
       nofollow 
       noreferrer          each having different properties/ Work-->
     If we use _self insted of _blank ( you can try it out ).<br>
-
+<h1>Adding Image</h1>
  <!--Here target just decide where the link should be shown down -->
  <!--title in these hyper link used as a sec msg or denotation of what is inside it-->
  <!-- For an Image we use <img src="img link " and if we want we can adjust its height width by "Height= X "-->
   <img src="https://imgs.search.brave.com/cuX6TM0agd0Lt1A1c5sZWIbarx0XMoKFQAIDFz8SzEA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91cy4x/MjNyZi5jb20vNDUw/d20vZWxudXIvZWxu/dXIxMzEwL2VsbnVy/MTMxMDAxODAxLzIz/MTAwNjA3LW1hbi1p/bi1kZXZpbC1jb3N0/dW1lLWluLWhhbGxv/d2Vlbi1jb25jZXB0/LmpwZz92ZXI9Ng" height="287" width="156" title="hello cutie ">
   <br> 
   <!--If you want to put this image source  then just let the img code be between <a and /a > and add href="link" then img="link"  -->
+        <h1>Audio File Addition</h1>
      <!-- Now you reached to the audio file stage 
                 for audio file inserting we use the tag -->
- 
+         <!--for nested audio file -->
+         <audio controls autoplay source src="https://file-examples.com/wp-content/storage/2017/11/file_example_MP3_700KB.mp3">
         <!-- The provided audio will not play as it is just the sample or I will be adding working link in feature -->
          <!--for nested audio file -->
          <audio controls autoplay >
@@ -43,6 +81,39 @@ I Love Virtual World
             device cannot access the file please check the file format that can be accessed by your device.
          </audio>
         <!-- HTML aupport mp3, WAV , OGG audio file -->
+         <h1> Video File Addition </h1>
          <!-- HTML support video format of mp4,ogg,WebM-->
+          <video controls autoplay loopwidth src="<!--right now while i am having this repo I dont have any video link-->">
+            <!-- for video nested -->
+             <video controls autplay loop width >
+                <source src="formaat 1">
+                <source src="format 2">
+                if not appeared your device fault( this wont shows to ur user or clint if one of ur uploaded format worked on their device )
+             </video>
+             <!-- I am writing format 1 2 cuz I do not have video right now-->
+
+             <h1>Adding Table </h1>
+       <!-- This is the Stage where you will learn to add Tables-->
+        <!-- Here is table structure with example-->
+          <table bgcolour="green"><!-- This is table tag-->
+            <tr bgcolour="dark green"> <!-- This is table row tag-->
+                <th>a</th>
+                <th>b</th><!-- this is table header tag -->
+                <th>c</th>
+            </tr>
+            <tr bgcolour="light green">
+                <th>a1</th>
+                <th>b2</th>
+                <th>c1</th>
+
+            </tr>
+          </table>
+          <!-- By seeing these tag you might have thought about we can have tc (table column or not ) the answer is 
+           sorry we don't have table column tag 
+           so, we use tr tag multiple times for vertical colume as need-->
+           <!-- Now I think you know why many site shows horizontial table (They are lazy hahahahh)-->
+
+
+
 </body>
 </html>
